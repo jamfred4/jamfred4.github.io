@@ -1,0 +1,43 @@
+@font-face{
+    font-family: Marker;
+    src: url(text/PermanentMarker-Regular.ttf);
+}
+
+div {
+    font-family: Marker;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    padding: 2px;
+    
+    
+}
+
+
+#big_div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+ }
+
+ img {
+     width: 150px;
+     height: 75px;
+ }
+ 
+ .items:hover {
+     background-color: green;
+     opacity: 0.5;
+ }
+
+ a {
+     width: 10%;
+     text-align: center;
+     text-decoration: none;
+ }
+
+ p{
+     font-family: Marker;
+     color: white;
+     background-color: rgb(243, 63, 63)
+ }
