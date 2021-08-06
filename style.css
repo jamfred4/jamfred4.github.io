@@ -13,11 +13,17 @@ div {
     
 }
 
+#big_div img{
+    width: 140px;
+}
+
+
 
 #big_div {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+   
  }
 
  img {
@@ -26,7 +32,7 @@ div {
  }
  
  .items:hover {
-     background-color: green;
+     background-color: pink;
      opacity: 0.5;
  }
 
@@ -36,8 +42,38 @@ div {
      text-decoration: none;
  }
 
- p{
+ .text{
      font-family: Marker;
      color: white;
-     background-color: rgb(243, 63, 63)
+     background-color: rgb(243, 63, 63);
+     font-size: 14px;
  }
+
+ .blue{
+     background-color: #003268;
+     font-family: Marker;
+     font-size: 14px;
+     color: white;
+ }
+
+ .gold{
+    background-color: #b8860b;
+    font-family: Marker;
+    font-size: 14px;
+    color: white;
+}
+
+.focus{
+  background-color: #fd8888; 
+  border-top: black; 
+  margin-right: 50px;
+  border: 2px solid black;
+  font-size: 12px;
+  color: white;
+  ;
+}
+
+
+.gold hr{
+    border-color:black;
+}
